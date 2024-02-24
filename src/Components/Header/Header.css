@@ -1,0 +1,42 @@
+.navbar1{
+    background-color: #cf2e2e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.6rem 11rem;
+}
+.left1 img{
+    width: 27%;
+}
+.list1 li a{
+    /* display: inline-block; */
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 200;
+    transition: all 0.3s;
+    font-size: 18px;
+}
+.list1 li{
+    list-style: none;
+    cursor: pointer;
+   
+}
+.list1{
+    display: flex;
+    justify-content: space-between;
+    gap: 2.8rem;
+
+}
+.list1 li a:hover{
+    color: white;
+    background-color:black;
+    border-radius: 1rem;
+    padding: 0.6rem;
+    font-weight: 400;
+    font-size: 19px;
+}
+.right1{
+    display: flex;
+    /* align-items: center; */
+}

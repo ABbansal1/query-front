@@ -1,0 +1,98 @@
+.login{
+    width: 100%;
+    height: 12vh;
+    background-color:rgb(238,238,238);
+    border: 1px solid grey;
+    padding-top: 50px;
+}
+.login h1{
+    font-weight: 200;
+    margin-left: 10px;  
+       
+
+} 
+
+
+
+
+.login-form{
+     width: 100%;
+     margin: 4% 33%;
+}
+
+.left-part{
+     width: 40%;
+     
+}
+.left-part h3{
+     color: #cf2e2e;
+     border-bottom: 1px solid gainsboro;
+
+}
+.left-part input{
+     width: 70%;
+     height: 30px;
+     margin-top: 15px;
+
+}
+
+.left-part button{
+     padding: 9px 25px;
+     background-color: #cf2e2e;
+     color: white;
+     margin-top: 13px;
+
+}
+
+.right-part{
+     margin-top: 10px;
+}
+.right-part button{
+     padding: 5px 25px;
+     background-color: #cf2e2e;
+     color: white;
+     margin-top: 10px;
+     border-radius: 10px;
+}
+
+@media screen and (max-width:400px) {
+     .login-form{
+          width: 100%;
+          margin: 4% 27%;
+     }
+     
+     .left-part{
+          width: 40%;
+          
+     }
+     .left-part h3{
+          color: #cf2e2e;
+          border-bottom: 1px solid gainsboro;
+     
+     }
+     .left-part input{
+          width: 85%;
+          height: 30px;
+          margin-top: 15px;
+     
+     }
+     
+     .left-part button{
+          padding: 9px 25px;
+          background-color: #cf2e2e;
+          color: white;
+          margin-top: 13px;
+     
+     }
+     
+     .right-part{
+          margin-top: 10px;
+     }
+     .right-part button{
+          padding: 5px 20px;
+          background-color: #cf2e2e;
+          color: white;
+          margin-top: 10px;
+          border-radius: 10px;
+     }
+}

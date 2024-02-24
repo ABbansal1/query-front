@@ -1,0 +1,66 @@
+.bannar{
+    width: 100%;
+    height: 30vh;
+     background-image: url("new2.jpeg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     color: white;
+     padding-top: 150px;
+}
+.bannar span{
+     color: #cf2e2e ;
+} 
+.bannar h1{
+      font-weight: 700;
+      font-size: 50px;
+      
+}
+
+.working-nav{
+    width: 100%;
+    height: 12vh;
+    background-color:rgb(238,238,238);
+    border: 1px solid grey;
+    padding-top: 50px;
+    
+}
+.working-nav h1{
+    font-weight: 200;
+    margin-left: 10px;      
+
+}
+.process{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+.create p{
+    margin-left: 20px;
+    font-size: 23px;
+    margin-top: 8px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+
+@media screen and (max-width:400px){
+    .process{
+         display: flex;
+         flex-direction: column;
+         margin-left: 17%;
+    }
+    .create{
+        margin-top: 30px;
+    }
+    .create p{
+        margin-left: 16px;
+        font-size: 23px;
+        margin-top: 10px;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+        font-weight: 200;
+
+
+    }
+}
